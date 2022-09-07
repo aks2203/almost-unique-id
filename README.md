@@ -1,5 +1,5 @@
 # almost-unique-id
-Get almost unique run id names.
+Get almost unique ID names. This package randomly selects an `adjective-Name` pair from 24,567,933 unique pairs.
 
 ## Installation  
 To install this package, git clone it and install with pip as follows.
