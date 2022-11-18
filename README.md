@@ -5,8 +5,15 @@ These IDs serve much the same pupose as generating a random hex string, that is 
 
 Feel free to use this for any such application. If you have a use for this that you think is worth mentioning in the README, feel free to open a PR and add it so the description.
 
-## Installation  
-To install this package, git clone it and install with pip as follows.
+## Installation
+
+This package is installable with pip:
+
+```
+$ pip install almost-unique-id
+```
+
+Or, you can install it from source by git cloning it and installing with pip as follows.
 
 ```
 $ git clone https://github.com/aks2203/almost-unique-id.git
