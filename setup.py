@@ -12,13 +12,13 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(name="almost_unique_id",
-      version="v0.0.1",
+      version="v0.0.2",
       description="Almost Unique IDs",
       author="Avi Schwarzschild",
       keywords=["run ids"],
       long_description=long_description,
       long_description_content_type="text/markdown",
-      py_modules=["almost_unique_id"],
+      py_modules=["almost_unique_id", "adjectives", "names"],
       python_requires=">=3.7",
       install_requires=[],
       license="MIT")
