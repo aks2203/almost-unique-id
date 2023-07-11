@@ -5,7 +5,7 @@ from names import names
 
 
 def generate_id():
-    hashstr = f"{adjectives[random.randint(0, len(adjectives))]}-{names[random.randint(0, len(names))]}"
+    hashstr = f"{adjectives[random.randint(0, len(adjectives)-1)]}-{names[random.randint(0, len(names)-1)]}"
     return hashstr
 
 

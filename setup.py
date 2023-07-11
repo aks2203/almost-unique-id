@@ -12,7 +12,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(name="almost_unique_id",
-      version="v0.0.2",
+      version="v0.0.3",
       description="Almost Unique IDs",
       author="Avi Schwarzschild",
       keywords=["run ids"],
